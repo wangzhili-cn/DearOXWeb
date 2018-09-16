@@ -67,9 +67,14 @@
     <Content Include="Tools\bootstrap-3.3.7-dist\js\bootstrap.js" />
     <Content Include="Tools\bootstrap-3.3.7-dist\js\bootstrap.min.js" />
     <Content Include="Tools\bootstrap-3.3.7-dist\js\npm.js" />
+    <Content Include="Tools\CSS\base.css" />
+    <Content Include="Tools\CSS\common.css" />
+    <Content Include="Tools\CSS\index.css" />
+    <Content Include="Tools\echarts\echarts.js" />
     <Content Include="Tools\jquery-1.9.1\jquery.js" />
     <Content Include="Tools\jquery-1.9.1\jquery.min.js" />
     <Content Include="Tools\jquery-1.9.1\www.jq22.com.txt" />
+    <Content Include="Tools\JS\index.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -102,9 +107,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BLL\BLL.csproj">
-      <Project>{86dca99a-de42-45b9-8c11-5a590a4c1926}</Project>
-      <Name>BLL</Name>
+    <ProjectReference Include="..\DLL\DLL.csproj">
+      <Project>{c58ac1ee-afaa-4dd3-a096-3bbfe2c93c69}</Project>
+      <Name>DLL</Name>
     </ProjectReference>
     <ProjectReference Include="..\Model\Model.csproj">
       <Project>{9c18fc44-e1b9-419b-babe-079fc94e3102}</Project>
@@ -112,6 +117,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Tools\Picture\" />
     <Folder Include="View\" />
   </ItemGroup>
   <PropertyGroup>
