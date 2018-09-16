@@ -1,63 +1,268 @@
-﻿<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <!--移动设备优先-->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <title>Welcome  to DearOX</title>
-    <!--bootstrap文件引用-->
-    <link href="Tools/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet" />
-    <!--主题-->
-    <link href="Tools/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" rel="stylesheet" />
-    <script src="Tools/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
-    <!--bootstrap完-->
-    <link href="Tools/CSS/base.css" rel="stylesheet" />
-    <link href="Tools/CSS/common.css" rel="stylesheet" />
-    <link href="Tools/CSS/index.css" rel="stylesheet" />
-    <script src="Tools/JS/index.js"></script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Resume - Start Bootstrap Theme</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="View/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Custom fonts for this template -->
+    <link href="View/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="View/css/resume.min.css" rel="stylesheet">
 </head>
-<body>
-    <!--固定宽度并响应式布局-->
-    <nav class="navbar-default">
-        <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">Welcome to DearOX</a>
+
+<body id="page-top">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+            <span class="d-block d-lg-none">FizzBlog</span>
+            <span class="d-none d-lg-block">
+                <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="View/img/cat.jpg" alt="">
+            </span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#about"><span class="glyphicon glyphicon-apple"></span>About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#experience"><span class="glyphicon glyphicon-apple"></span>经  历</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#education"><span class="glyphicon glyphicon-apple"></span>教  育</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#skills"><span class="glyphicon glyphicon-apple"></span>技  能</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#interests"><span class="glyphicon glyphicon-apple"></span>爱  好</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#awards"><span class="glyphicon glyphicon-apple"></span>荣  誉</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid p-0">
+        <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
+            <div class="my-auto">
+                <h3 class="mb-5">About me,
+                    <span class="text-primary">Fizz</span>
+                </h3>
+                <div class="subheading mb-5">
+                    静居寺马家沟188望江锦园
+                    <br />
+                    手机：16619963697
+                    <br />
+                    扣扣：2951312994
+                    <br />
+                    邮箱：wangzhili.cn@gmail.com
+                    <!--<a href="mailto:wangzhili.cn@gmail.com">wangzhili.cn@gmail.com </a>-->
+                </div>
+
+                <p class="lead mb-5">热爱C#编程，喜欢炉石传说，也爱逛街，爱找人聊天，爱安静的看书，也爱自己琢磨些有趣的事情</p>
+                <div class="social-icons">
+                    <a href="https://github.com/wangzhili-cn" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://user.qzone.qq.com/2951312994" target="_blank">
+                        <i class="fab fa-qq"></i>
+                    </a>
+                    <a href="https://www.zhihu.com/people/gei-wo-yi-bei-ka-fei/activities" target="_blank">
+                        <i class="fab fa-zhihu"></i>
+                    </a>
+                    <a href="https://space.bilibili.com/85814470/#/" target="_blank">
+                        <i class="fab fa-weibo"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <hr class="m-0">
+
+        <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
+            <div class="my-auto">
+                <h2 class="mb-5 text-primary">个人经历</h2>
+
+                <div class="resume-item d-flex flex-column flex-md-row mb-5">
+                    <div class="resume-content mr-auto">
+                        <h3 class="mb-0">C#开发程序员</h3>
+                        <div class="subheading mb-3">C#网站开发</div>
+                        <p>16年6月于学校面试北京思卓软件有限公司从事C#程序开发，在此期间巩固了我应对实际问题解决办法的能力。</p>
+                        <p>参与开发项目：国家京剧院官网，国家广电总局后台管理系统，联通大数据子平台网络质量分析系统，TVPay莲萍网有限电视收费系统</p>
+                        <p>了解了许多前端框架：echarts，bootstrap</p>
+                        <p>版本控制系统：github</p>
+                        <p>其他语言：Java</p>
+                    </div>
+                    <div class="resume-date text-md-right">
+                        <span class="text-primary">June 2016 - Present</span>
+                    </div>
+                </div>
+
+                <div class="resume-item d-flex flex-column flex-md-row mb-5">
+                    <div class="resume-content mr-auto">
+                        <h3 class="mb-0">化妆品销售</h3>
+                        <div class="subheading mb-3">从事过一段时间销售</div>
+                        <p>和朋友从事过一段时间销售，在此期间明白了很多事情</p>
+                    </div>
+                    <div class="resume-date text-md-right">
+                        <span class="text-primary">July 2017 - Present</span>
+                    </div>
+                </div>
             </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="#"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>Home <span class="sr-only">(current)</span></a></li>
-                    <li><a href="#"><span class="glyphicon glyphicon-apple" aria-hidden="true"></span>Album</a></li>
-                    <li><a href="#"><span class="glyphicon glyphicon-book" aria-hidden="true"></span>Count</a></li>
-                    <li><a href="#"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>About</a></li>
-                </ul>
-                <form class="navbar-form navbar-left">
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Search">
+        </section>
+
+        <hr class="m-0">
+
+        <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
+            <div class="my-auto">
+                <h2 class="mb-5 text-primary">Education</h2>
+
+                <div class="resume-item d-flex flex-column flex-md-row mb-5">
+                    <div class="resume-content mr-auto">
+                        <h3 class="mb-0">湖北职业技术学院</h3>
+                        <div class="subheading mb-3">信息技术学院 梦想七班</div>
+                        <div>C#开发-重要的是收获了深厚的友情</div>
+                        <!--<p>GPA: 3.23</p>-->
                     </div>
-                    <button type="submit" class="btn btn-default">Submit</button>
-                </form>
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#">Me</a></li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                    <div class="resume-date text-md-right">
+                        <span class="text-primary">September 2014 - June 2016</span>
+                    </div>
+                </div>
+
+                <div class="resume-item d-flex flex-column flex-md-row">
+                    <div class="resume-content mr-auto">
+                        <h3 class="mb-0">渔薪高中</h3>
+                        <div class="subheading mb-3">大七班</div>
+                        <p>难忘的高中经历</p>
+                    </div>
+                    <div class="resume-date text-md-right">
+                        <span class="text-primary">September 2012 - June 2014</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <hr class="m-0">
+
+        <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
+            <div class="my-auto">
+                <h2 class="mb-5 text-primary">Skills</h2>
+
+                <div class="subheading mb-3">我会的知识以及我喜欢的编程语言</div>
+                <ul class="list-inline dev-icons">
+                    <li class="list-inline-item">
+                        <i class="fab fa-html5"></i>
+                    </li>
+                    <li class="list-inline-item">
+                        <i class="fab fa-css3-alt"></i>
+                    </li>
+                    <li class="list-inline-item">
+                        <i class="fab fa-js-square"></i>
+                    </li>
+                    <li class="list-inline-item">
+                        <i class="fab fa-angular"></i>
+                    </li>
+                    <li class="list-inline-item">
+                        <i class="fab fa-react"></i>
+                    </li>
+                    <li class="list-inline-item">
+                        <i class="fab fa-node-js"></i>
+                    </li>
+                    <li class="list-inline-item">
+                        <i class="fab fa-sass"></i>
+                    </li>
+                    <li class="list-inline-item">
+                        <i class="fab fa-less"></i>
+                    </li>
+                    <li class="list-inline-item">
+                        <i class="fab fa-wordpress"></i>
+                    </li>
+                    <li class="list-inline-item">
+                        <i class="fab fa-gulp"></i>
+                    </li>
+                    <li class="list-inline-item">
+                        <i class="fab fa-grunt"></i>
+                    </li>
+                    <li class="list-inline-item">
+                        <i class="fab fa-npm"></i>
                     </li>
                 </ul>
+
+                <div class="subheading mb-3">I like and i can</div>
+                <ul class="fa-ul mb-0">
+                    <li>
+                        <i class="fa-li fa fa-check"></i>
+                        echarts图标绘制</li>
+                    <li>
+                        <i class="fa-li fa fa-check"></i>
+                        bootstrap响应式网站建设</li>
+                    <li>
+                        <i class="fa-li fa fa-check"></i>
+                        C#编程以及SQL运用</li>
+                    <li>
+                        <i class="fa-li fa fa-check"></i>
+                        炉石传说各个卡组分析运用</li>
+                </ul>
             </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
-    <div class="container" id="main">
+        </section>
+
+        <hr class="m-0">
+
+        <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
+            <div class="my-auto">
+                <h2 class="mb-5 text-primary">Interests</h2>
+                <p>爱好很多很多，第一个当然是学习啦，有时候喜欢玩炉石传说感觉里面组合卡组很cool很炫，喜欢去公园呼吸新鲜空气，喜欢去人潮涌动的春熙街漫无目的的走，喜欢去学校，躺在草坪上看蓝色天空</p>
+                <p class="mb-0">喜欢找人聊天，挺他讲什么，我自己到不喜欢多说，听着感受就蛮舒服，喜欢在有人的地方睡觉，独自的时候则爱思考</p>
+            </div>
+        </section>
+
+        <hr class="m-0">
+
+        <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
+            <div class="my-auto">
+                <h2 class="mb-5 text-primary">Awards &amp; Certifications</h2>
+                <ul class="fa-ul mb-0">
+                    <li>
+                        <i class="fa-li fa fa-trophy text-warning"></i>
+                        2016年一呼百应，为爱奔跑，奥铃匹克公园马拉松参与奖</li>
+                    <li>
+                        <i class="fa-li fa fa-trophy text-warning"></i>
+                        SCCE中级软件工程师证书</li>
+                    <li>
+                        <i class="fa-li fa fa-trophy text-warning"></i>
+                        1<sup>st</sup>
+                        炉石传说15段</li>
+                </ul>
+            </div>
+        </section>
+
     </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="View/vendor/jquery/jquery.min.js"></script>
+    <script src="View/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="View/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="View/js/resume.min.js"></script>
+
 </body>
+
 </html>
