@@ -1,0 +1,9 @@
+D:\Documents\GitHub\DearOXWeb\DearOXWeb\DearOXWeb\bin\DearOXWeb.dll
+D:\Documents\GitHub\DearOXWeb\DearOXWeb\DearOXWeb\bin\DearOXWeb.pdb
+D:\Documents\GitHub\DearOXWeb\DearOXWeb\DearOXWeb\bin\BLL.dll
+D:\Documents\GitHub\DearOXWeb\DearOXWeb\DearOXWeb\bin\Model.dll
+D:\Documents\GitHub\DearOXWeb\DearOXWeb\DearOXWeb\bin\BLL.pdb
+D:\Documents\GitHub\DearOXWeb\DearOXWeb\DearOXWeb\bin\Model.pdb
+D:\Documents\GitHub\DearOXWeb\DearOXWeb\DearOXWeb\obj\Debug\DearOXWeb.csprojResolveAssemblyReference.cache
+D:\Documents\GitHub\DearOXWeb\DearOXWeb\DearOXWeb\obj\Debug\DearOXWeb.dll
+D:\Documents\GitHub\DearOXWeb\DearOXWeb\DearOXWeb\obj\Debug\DearOXWeb.pdb
