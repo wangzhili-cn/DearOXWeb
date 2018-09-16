@@ -58,12 +58,42 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="index.html" />
+    <Content Include="Sql\DB_DearOX.sql" />
+    <Content Include="Tools\bootstrap-3.3.7-dist\css\bootstrap-theme.css" />
+    <Content Include="Tools\bootstrap-3.3.7-dist\css\bootstrap-theme.min.css" />
+    <Content Include="Tools\bootstrap-3.3.7-dist\css\bootstrap.css" />
+    <Content Include="Tools\bootstrap-3.3.7-dist\css\bootstrap.min.css" />
+    <Content Include="Tools\bootstrap-3.3.7-dist\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Tools\bootstrap-3.3.7-dist\js\bootstrap.js" />
+    <Content Include="Tools\bootstrap-3.3.7-dist\js\bootstrap.min.js" />
+    <Content Include="Tools\bootstrap-3.3.7-dist\js\npm.js" />
+    <Content Include="Tools\jquery-1.9.1\jquery.js" />
+    <Content Include="Tools\jquery-1.9.1\jquery.min.js" />
+    <Content Include="Tools\jquery-1.9.1\www.jq22.com.txt" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Handler\index.ashx.cs">
+      <DependentUpon>index.ashx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Tools\bootstrap-3.3.7-dist\css\bootstrap-theme.css.map" />
+    <Content Include="Tools\bootstrap-3.3.7-dist\css\bootstrap-theme.min.css.map" />
+    <Content Include="Tools\bootstrap-3.3.7-dist\css\bootstrap.css.map" />
+    <Content Include="Tools\bootstrap-3.3.7-dist\css\bootstrap.min.css.map" />
+    <Content Include="Tools\bootstrap-3.3.7-dist\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Tools\bootstrap-3.3.7-dist\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Tools\bootstrap-3.3.7-dist\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Tools\bootstrap-3.3.7-dist\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Tools\books\jQuery1.8.3中文手册.chm" />
+    <Content Include="Tools\books\SQL参考手册.chm" />
+    <Content Include="Tools\books\W3School离线手册%282015.07.17%29.chm" />
+    <Content Include="Tools\books\CSS完全参考手册3.0.chm" />
+    <Content Include="Tools\books\XML指南.chm" />
+    <Content Include="Tools\jquery-1.9.1\jquery插件库.url" />
+    <Content Include="Handler\index.ashx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -80,6 +110,9 @@
       <Project>{9c18fc44-e1b9-419b-babe-079fc94e3102}</Project>
       <Name>Model</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="View\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
