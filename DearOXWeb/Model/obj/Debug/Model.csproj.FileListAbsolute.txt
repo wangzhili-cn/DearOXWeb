@@ -2,4 +2,3 @@ D:\Documents\GitHub\DearOXWeb\DearOXWeb\Model\bin\Debug\Model.dll
 D:\Documents\GitHub\DearOXWeb\DearOXWeb\Model\bin\Debug\Model.pdb
 D:\Documents\GitHub\DearOXWeb\DearOXWeb\Model\obj\Debug\Model.dll
 D:\Documents\GitHub\DearOXWeb\DearOXWeb\Model\obj\Debug\Model.pdb
-D:\Documents\GitHub\DearOXWeb\DearOXWeb\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache

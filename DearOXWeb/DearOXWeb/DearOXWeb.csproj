@@ -57,6 +57,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="test\HtmlPage1.html" />
     <Content Include="Tools\Test\index.html" />
     <Content Include="Sql\DB_DearOX.sql" />
     <Content Include="Tools\bootstrap-3.3.7-dist\css\bootstrap-theme.css" />
@@ -76,7 +77,9 @@
     <Content Include="Tools\jquery-1.9.1\jquery.js" />
     <Content Include="Tools\jquery-1.9.1\jquery.min.js" />
     <Content Include="Tools\jquery-1.9.1\www.jq22.com.txt" />
+    <Content Include="View\img\cat.ico" />
     <Content Include="View\img\cat.jpg" />
+    <Content Include="View\img\mao.jpg" />
     <Content Include="View\js\index.js" />
     <Content Include="View\.gitignore" />
     <Content Include="View\css\resume.css" />
